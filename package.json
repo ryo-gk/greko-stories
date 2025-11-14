@@ -1,0 +1,27 @@
+{
+  "name": "greko-stories",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/icon": "^1.10.1",
+    "@nuxtjs/i18n": "^10.2.0",
+    "nuxt": "^4.2.1",
+    "reka-ui": "^2.6.0",
+    "vue": "^3.5.24",
+    "vue-router": "^4.6.3"
+  },
+  "packageManager": "pnpm@10.20.0+sha512.cf9998222162dd85864d0a8102e7892e7ba4ceadebbf5a31f9c2fce48dfce317a9c53b9f6464d1ef9042cba2e02ae02a9f7c143a2b438cd93c91840f0192b9dd",
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.2.3",
+    "@oxc-minify/binding-darwin-arm64": "^0.97.0",
+    "@oxc-parser/binding-darwin-arm64": "^0.97.0",
+    "@oxc-transform/binding-darwin-arm64": "^0.97.0"
+  }
+}

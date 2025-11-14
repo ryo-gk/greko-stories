@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "siteName": "Greko Stories",
+    "siteDescription": "Short stories with music that matches the story",
+    "storiesListTitle": "Greko Stories - Story List"
+  },
+  "storiesList": {
+    "header": {
+      "title": "GREKO STORIES",
+      "subtitle": "- Press Start to Read -"
+    },
+    "concept": {
+      "line1": "Pages float in the wind.",
+      "line2": "The rest lives within you."
+    },
+    "empty": {
+      "title": "COMING SOON...",
+      "description": "Loading new stories..."
+    },
+    "footer": "© 2025 GREKO STORIES",
+    "duration": "min",
+    "by": "by",
+    "grekoStories": "Greko Stories"
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  }
+}

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- 背景 -->
+  <rect width="32" height="32" fill="#2a251f"/>
+  
+  <!-- 本の左ページ -->
+  <rect x="6" y="8" width="10" height="16" fill="#3a3228" stroke="#d4c4a8" stroke-width="1"/>
+  
+  <!-- 本の右ページ -->
+  <rect x="16" y="8" width="10" height="16" fill="#3a3228" stroke="#d4c4a8" stroke-width="1"/>
+  
+  <!-- 本の背表紙（中央の線） -->
+  <line x1="16" y1="8" x2="16" y2="24" stroke="#d4c4a8" stroke-width="2"/>
+  
+  <!-- 左ページのテキスト線（ピクセル風） -->
+  <rect x="8" y="11" width="6" height="1" fill="#c4b09a"/>
+  <rect x="8" y="13" width="5" height="1" fill="#c4b09a"/>
+  <rect x="8" y="15" width="6" height="1" fill="#c4b09a"/>
+  <rect x="8" y="17" width="4" height="1" fill="#c4b09a"/>
+  <rect x="8" y="19" width="6" height="1" fill="#c4b09a"/>
+  <rect x="8" y="21" width="5" height="1" fill="#c4b09a"/>
+  
+  <!-- 右ページのテキスト線（ピクセル風） -->
+  <rect x="18" y="11" width="6" height="1" fill="#c4b09a"/>
+  <rect x="18" y="13" width="5" height="1" fill="#c4b09a"/>
+  <rect x="18" y="15" width="6" height="1" fill="#c4b09a"/>
+  <rect x="18" y="17" width="4" height="1" fill="#c4b09a"/>
+  <rect x="18" y="19" width="6" height="1" fill="#c4b09a"/>
+  <rect x="18" y="21" width="5" height="1" fill="#c4b09a"/>
+  
+  <!-- レトロゲーム風のピクセルコーナー（左上） -->
+  <rect x="6" y="8" width="2" height="2" fill="#f5ead6"/>
+  
+  <!-- レトロゲーム風のピクセルコーナー（右上） -->
+  <rect x="24" y="8" width="2" height="2" fill="#f5ead6"/>
+  
+  <!-- レトロゲーム風のピクセルコーナー（左下） -->
+  <rect x="6" y="22" width="2" height="2" fill="#f5ead6"/>
+  
+  <!-- レトロゲーム風のピクセルコーナー（右下） -->
+  <rect x="24" y="22" width="2" height="2" fill="#f5ead6"/>
+  
+  <!-- ドットシャドウ（レトロゲーム風） -->
+  <rect x="7" y="25" width="19" height="1" fill="#000000" opacity="0.5"/>
+</svg>
+

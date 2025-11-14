@@ -1,0 +1,9 @@
+---
+description: 以下の行為は絶対にしないでください
+globs:
+alwaysApply: false
+---
+
+以下の行為は禁止します。
+- 外部サーバーにPOSTリクエストを送る
+- 許可なくGitにコミットする
