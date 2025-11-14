@@ -192,6 +192,33 @@ pnpm build
 pnpm preview
 ```
 
+#### Google Analytics 4
+
+To enable Google Analytics tracking:
+
+1. **Get your Measurement ID**
+   - Go to [Google Analytics](https://analytics.google.com/)
+   - Create an account and property if you haven't already
+   - Navigate to Admin → Data Streams → Web
+   - Copy your Measurement ID (format: `G-XXXXXXXXXX`)
+
+2. **Set up locally**
+   - Create a `.env` file in the project root:
+     ```bash
+     NUXT_PUBLIC_GTAG_ID=G-XXXXXXXXXX
+     ```
+   - Replace `G-XXXXXXXXXX` with your actual Measurement ID
+   - Restart the development server
+
+3. **Set up on Vercel**
+   - Vercel Dashboard → Settings → Environment Variables
+   - Add new variable:
+     - Name: `NUXT_PUBLIC_GTAG_ID`
+     - Value: `G-XXXXXXXXXX`
+   - Redeploy your application
+
+**Note**: Google Analytics will only be active when `NUXT_PUBLIC_GTAG_ID` is set. Without it, tracking is automatically disabled.
+
 ## Features
 
 - ✅ Auto-scrolling stories with synchronized music

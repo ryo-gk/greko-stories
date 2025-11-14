@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@nuxt/icon": "^1.10.1",
+    "@nuxtjs/google-gtag": "^1.0.4",
     "@nuxtjs/i18n": "^10.2.0",
     "nuxt": "^4.2.1",
     "reka-ui": "^2.6.0",
