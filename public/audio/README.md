@@ -10,6 +10,12 @@
 - **配置パス**: `public/audio/neon-story.mp3`
 - **推奨曲調**: 神秘的で少し不安感のある、冒険の始まりを予感させる曲
 
+### Regain Your Emotions
+- **ファイル名**: `regain-your-emotions.mp3`
+- **説明**: 金融街の実務家と赤ん坊の物語のBGM（現在ダミーファイル）
+- **配置パス**: `public/audio/regain-your-emotions.mp3`
+- **推奨曲調**: 計算された日常を描く、静かで落ち着いた曲調
+
 ## ファイル形式
 - 推奨形式: MP3
 - その他対応形式: WAV, OGG, M4A

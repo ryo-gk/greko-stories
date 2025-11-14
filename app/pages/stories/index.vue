@@ -23,6 +23,19 @@ const storyList: StoryInfo[] = [
     },
     duration: '3',
     path: '/stories/neon-story'
+  },
+  {
+    id: 'regain-your-emotions',
+    title: {
+      en: 'Regain Your Emotions',
+      ja: 'Regain Your Emotions'
+    },
+    description: {
+      en: 'Sean Hagreeves, a top practitioner in the financial district. A story of an encounter that changes his calculated daily life.',
+      ja: '金融街でも屈指の実務家、ショーン・ハグリーブス。計算された日常を変える出会いの物語。'
+    },
+    duration: '3',
+    path: '/stories/regain-your-emotions'
   }
   // 新しい物語を追加する際は、ここに追加するだけ
 ]

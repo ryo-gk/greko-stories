@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// Neon Story - 本の世界に入った少年の冒険物語
+// Regain Your Emotions - 金融街の実務家と赤ん坊の物語
 const { t, locale } = useI18n()
 
 const scrollContainer = ref<HTMLElement | null>(null)
@@ -11,28 +11,28 @@ const hasEnded = ref(false)
 
 // 物語固有のデータ定義（このコンポーネントに閉じて管理）
 const storyData = {
-  id: 'neon-story',
+  id: 'regain-your-emotions',
   // 物語の最後に表示する画像（後で画像を配置する場合はここにパスを設定）
-  endingImage: '/images/neon-story-ending.jpg',
+  endingImage: '/images/regain-your-emotions-ending.jpg',
   meta: {
     en: {
-      title: 'Neon Story - Greko Stories',
-      description: 'Neon, a shy boy who entered the world of a book. An adventure begins to find trustworthy companions to save the captive princess.'
+      title: 'Regain Your Emotions - Greko Stories',
+      description: 'Sean Hagreeves, a top practitioner in the financial district. A story of an encounter that changes his calculated daily life.'
     },
     ja: {
-      title: 'Neon Story - Greko Stories',
-      description: '本の世界に入り込んだ内気な少年、ネオン。囚われの姫を救うため、信頼できる仲間を見つける冒険が始まる。'
+      title: 'Regain Your Emotions - Greko Stories',
+      description: '金融街でも屈指の実務家、ショーン・ハグリーブス。計算された日常を変える出会いの物語。'
     }
   },
   listInfo: {
     en: {
-      title: 'Neon Story',
-      description: 'Neon, a shy boy who entered the world of a book. An adventure begins to find trustworthy companions to save the captive princess.',
+      title: 'Regain Your Emotions',
+      description: 'Sean Hagreeves, a top practitioner in the financial district. A story of an encounter that changes his calculated daily life.',
       duration: '3'
     },
     ja: {
-      title: 'Neon Story',
-      description: '本の世界に入り込んだ内気な少年、ネオン。囚われの姫を救うため、信頼できる仲間を見つける冒険が始まる。',
+      title: 'Regain Your Emotions',
+      description: '金融街でも屈指の実務家、ショーン・ハグリーブス。計算された日常を変える出会いの物語。',
       duration: '3'
     }
   },
@@ -56,80 +56,68 @@ const storyData = {
   },
   paragraphs: {
     en: [
-      'Neon lay face-down on his futon, clutching a thick book to his chest. The room was dimly lit, with only the light falling on the pages illuminating his world. Outside, the night wind rustled the trees and tapped lightly against the window. But Neon\'s consciousness was entirely focused on the book.',
+      'Sean Hagreeves was one of the top practitioners in the financial district. Vast knowledge, meticulous judgment, and unwavering composure. While those around him highly valued his abilities, they typically kept their distance in his personal life. Sean himself had no need for interaction with others. His daily life was built on calculated procedures, and unnecessary fluctuations were eliminated.',
       '',
       '',
-      'He was reading his favorite adventure story, one he had read countless times. A brave adventurer—strong, wise, caring for his companions, and facing any hardship head-on. And the companions who trusted and supported him. Neon couldn\'t help but envy that relationship.',
+      'That day, on his way home, he was walking the same shortest route as always. There were few people around, and only streetlights cast regular light on the pavement.',
       '',
-      '"I wish I had companions like that."',
+      'Suddenly, metal glinted at the edge of his vision. A small basket placed by the roadside. Streetlight reflected off its side. It should have been an ordinary sight. Yet, Sean stopped a few steps ahead.',
       '',
-      'He whispered softly. At school, he couldn\'t talk well with kids his age. Even when he wanted to reach out, his legs would freeze and words wouldn\'t come. Before he knew it, he spent more time alone reading books. That\'s why the friendships and adventures in books seemed to shine so brightly.',
+      'The reason was unclear. But his gaze naturally returned to that basket.',
       '',
-      'As the story approached its climax, Neon slowed down his page-turning slightly. It was a scene that warmed his heart no matter how many times he read it. The protagonist and his companions joined forces and finally defeated the demon lord. When he finished reading to the end, Neon exhaled with satisfaction.',
+      'A thin cloth was draped over it. There was no one around. Sean lifted the edge of the cloth and quietly pulled it back.',
       '',
-      '"Still a great story."',
+      'There, a baby lay alone. A small child who appeared to be a girl. Not crying, not showing surprise, just staring straight at Sean. Those eyes held a strange stillness, like a soft warmth placed in the cold night air.',
       '',
-      'As he was about to close the book, he noticed something odd. Beyond the last page, there was a blank sheet. Had this page always been there? Neon furrowed his brow and gently turned the page with his fingertip.',
+      'Before his thoughts could settle, Sean had already picked up the baby. Before he could calculate what other options were available, his body moved.',
       '',
-      'At that moment, black letters emerged in the center of the blank page.',
+      'When he returned home, he tidied a corner of the room and laid the baby down.',
       '',
-      '"Neon, brave Neon. Please help me... Find truly trustworthy companions. Come save me..."',
+      'Normally, bringing an unknown presence into his home would be a case to be handled with priority under any circumstances. But that night, Sean strangely did not pursue the details of his thoughts and simply went to sleep.',
       '',
-      'Neon gasped. He pulled back his trembling hand, eyes wide. The letters were definitely calling his name. Moreover, it was as if a voice was reaching him from beyond the book.',
+      'The next morning, he woke to a shadow standing in his field of vision.',
       '',
-      '"Wh-why...?"',
+      'A small girl, seven or eight years old, was peering down at him, blocking the morning sun. She wore a bright smile and was looking at Sean.',
       '',
-      'Before he could finish asking, a dazzling light overflowed from the book. The light painted his vision white, and the outline of the room and the feel of the book disappeared. He was swallowed by a sensation as if the entire world was being replaced.',
+      '"Good morning. Thank you for helping me yesterday!"',
       '',
-      'When the light subsided, before Neon\'s eyes spread an unfamiliar forest. Tall trees stood in rows, the wind rustled the leaves, and in the distance, he could hear the murmur of a small stream. Under his feet was moss-covered earth. There was definitely a soft texture.',
+      'The light voice transformed the room\'s atmosphere so naturally, as if her presence there was a matter of course.',
       '',
-      '"Where... is this...?"',
+      'Sean was unable to move for several seconds. There was no explanation for the situation. It didn\'t fit anywhere in logic. But the girl stood there without hesitation, smiling.',
       '',
-      'Neon didn\'t realize it, but he had entered the world of the book. The stage of the adventure he had longed for. However, the adventurer who was supposed to have been defeated in the story—that brave hero—was actually the demon lord hiding his true form. And the princess imprisoned by him used the only faint path that could reach the outside world to call for Neon\'s help.',
-      '',
-      'As the forest wind blew through, Neon trembled slightly. But in the depths of his chest, a different emotion was budding than usual. Not just fear. Somehow, a quickening that hinted at the beginning of an adventure.',
-      '',
-      'Could this shy boy, who found it difficult even to make friends, find trustworthy companions and save the princess?',
-      '',
-      'His long journey had only just taken its first step.'
+      'This is a story of Sean, whose quietly closed-off daily life was suddenly rewritten, gradually regaining the emotions he had forgotten while being swept along by the days spent with a wildly bright, unpredictable girl who knew nothing of the concept of restraint.'
     ],
     ja: [
-      'ネオンは、布団の上にうつ伏せになりながら、一冊の分厚い本を胸に抱えていた。部屋の灯りは弱く、ページの上に落ちる光だけが彼の世界を照らしている。家の外では夜風が木々を揺らし、窓を軽く叩く音がする。けれど、ネオンの意識はすべて本の中に向いていた。',
+      'ショーン・ハグリーブスは金融街でも屈指の実務家だった。膨大な知識量と緻密な判断力、乱れのない態度。周囲は彼の能力を高く評価する一方、私生活では距離を置くのが通例だった。ショーン自身、他者との関わりを必要としない。日常は計算された手順で構築され、不要な揺らぎは排除されていた。',
       '',
       '',
-      '彼が読んでいるのは、何度も読み返したお気に入りの冒険物語だ。勇敢な冒険者──強く、賢く、仲間想いで、どんな困難があっても立ち向かっていく主人公。そして、彼を信頼して支える仲間たち。ネオンはその関係がうらやましくて仕方がなかった。',
+      'その日の帰り道も、彼はいつもと同じ最短ルートを歩いていた。人通りは少なく、街灯だけが舗道に規則正しい明かりを落としている。',
       '',
-      '「僕にも、あんな仲間がいたらな。」',
+      'ふと、視界の端で金属が光った。歩道脇に置かれた小さなカゴ。その側面に街灯の光が反射していた。ありふれた光景のはずだった。にもかかわらず、ショーンは数歩進んだところで足を止めていた。',
       '',
-      '小さくつぶやく。学校では、同年代の子たちとうまく話せない。声をかけたいと思っても足がすくみ、言葉が出てこない。気づけば一人で本を読む時間が増えていた。だからこそ、本の世界の友情や冒険が輝いて見えるのだった。',
+      '理由ははっきりしない。ただ、視線が自然とそのカゴに戻った。',
       '',
-      '物語の終盤に差し掛かり、ネオンはページをめくる手を少しだけゆっくりにした。何度読んでも心が熱くなる場面だ。主人公が仲間たちと力を合わせ、ついに魔王を倒す。最後まで読み切ると、ネオンは満足げに息を吐いた。',
+      '薄い布がかけられている。周囲に人影はない。ショーンは布の端をつまみ、静かにめくった。',
       '',
-      '「やっぱりいい話だな。」',
+      'そこには、赤ん坊が一人、横たわっていた。少女と思われる小さな子。泣きもせず、驚いている様子もなく、ただ真っ直ぐにショーンを見つめていた。その目は、夜の冷えた空気の中に柔らかな温度を一つ置いたような、不思議な静けさを帯びていた。',
       '',
-      '本を閉じかけたとき、違和感に気づいた。最後のページのさらに奥に、一枚の白紙のページがある。こんなページ、あっただろうか。ネオンは眉をひそめ、そっと指先で紙をめくった。',
+      '思考がまとまるよりも先に、ショーンは赤ん坊を抱き上げていた。他にどのような選択肢が考えられるのか、逆算する前に身体が動いた。',
       '',
-      'その瞬間、白紙の中央に黒い文字が浮かび上がった。',
+      '自宅に戻ると、部屋の一角を整え、赤ん坊を寝かせた。',
       '',
-      '「ネオン、勇者ネオン。私を助けて……。本当に信頼できる仲間を見つけて。私を助けにきて……。」',
+      '本来なら、未知の存在を家に持ち込むなど、どんな状況であれ優先して処理するべき案件だ。しかしこの夜、ショーンは不思議なほど思考の細部を追おうとせず、そのまま眠りについた。',
       '',
-      'ネオンは息をのんだ。震える手を引っ込め、目を見開く。文字は確かに、彼の名前を呼んでいる。しかも、まるで本の向こう側から声が届くかのように。',
+      '翌朝、彼は視界に立つ影で目を覚ました。',
       '',
-      '「な、なんで……？」',
+      '朝日を遮るように、小柄な少女が覗き込んでいる。七歳か八歳ほどの年齢。明るい笑顔を浮かべ、ショーンを見つめていた。',
       '',
-      '問いかけるより早く、本からまばゆい光があふれ出した。光は彼の視界を白く塗りつぶし、部屋の輪郭も、本の感触も消えていく。まるで世界ごと入れ替わるような感覚に飲み込まれた。',
+      '「おはよう。昨日は助けてくれてありがとう！」',
       '',
-      'やがて光が収まり、ネオンの目の前には、見知らぬ森が広がっていた。背の高い木々が並び、風が葉を揺らし、遠くでは小さな川のせせらぎが聞こえる。足元には苔むした大地。確かに柔らかい感触がある。',
+      '軽やかな声は、部屋の空気を一変させるほど自然で、そこにいるのが当然であるかのようだった。',
       '',
-      '「ここ……どこ……？」',
+      'ショーンは数秒動けなかった。状況説明は存在しない。論理のどこにも該当しない。だが、少女は迷いなくそこに立ち、笑っていた。',
       '',
-      'ネオンは気づいていなかったが、彼は本の世界に入っていた。彼が憧れていた冒険の舞台。しかし、物語で倒されたはずの冒険者──あの勇敢な英雄──実は本当の姿を隠した魔王だったのだ。そして、彼に囚われた姫が、外の世界に唯一届くわずかな道を使って、ネオンへ助けを求めたのである。',
-      '',
-      '森の風が吹き抜ける中、ネオンは小さく震える。けれど、その胸の奥には、いつもとは違う感情が芽生えていた。恐怖だけではない。どこか、冒険の始まりを予感させるような高鳴り。',
-      '',
-      '内気で、友達をつくることすら難しかった少年は、信頼できる仲間を見つけ、姫を救うことができるのだろうか。',
-      '',
-      '彼の長い旅は、まだ一歩目を踏み出したばかりだった。'
+      'この話は、静かに閉ざされていた日常を突如として書き換えられたショーンが、破天荒に明るく、予測不能で、遠慮という概念を知らない少女と過ごす日々の中で、振り回されながらも少しずつ忘れていた感情を取り戻していく物語である。'
     ]
   }
 }
@@ -141,8 +129,8 @@ const storyParagraphs = computed(() => storyData.paragraphs[currentLang.value])
 const storyUI = computed(() => storyData.ui[currentLang.value])
 
 // 物語全体の高さとスクロール速度の計算
-// 3分22秒(202秒)で全体をスクロール
-const SCROLL_DURATION = 202 // 秒
+// 1分55秒(115秒)で全体をスクロール
+const SCROLL_DURATION = 115 // 秒
 
 const startStory = () => {
   hasStarted.value = true
@@ -261,9 +249,9 @@ useHead({
 </script>
 
 <template>
-  <div class="neon-story-container">
+  <div class="regain-your-emotions-container">
     <audio ref="audioPlayer">
-      <source src="/audio/neon-story.mp3" type="audio/mpeg">
+      <source src="/audio/regain-your-emotions.mp3" type="audio/mpeg">
     </audio>
     
     <!-- 固定ヘッダー（タイトル） -->
@@ -346,7 +334,7 @@ useHead({
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
-.neon-story-container {
+.regain-your-emotions-container {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -405,7 +393,7 @@ useHead({
 
 /* スクロールアニメーション */
 .scroll-container.scrolling {
-  animation: autoScroll 202s linear forwards;
+  animation: autoScroll 115s linear forwards;
 }
 
 @keyframes autoScroll {
@@ -418,7 +406,7 @@ useHead({
 }
 
 .scroll-container.scrolling .story-content {
-  animation: contentScroll 202s linear forwards;
+  animation: contentScroll 115s linear forwards;
 }
 
 @keyframes contentScroll {
