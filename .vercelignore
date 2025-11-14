@@ -1,0 +1,10 @@
+# Vercel デプロイ時に無視するファイル
+node_modules
+.nuxt
+.output
+.cache
+.DS_Store
+*.log
+.env.local
+.cursor
+

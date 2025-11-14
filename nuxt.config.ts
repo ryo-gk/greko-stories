@@ -2,6 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+
+  srcDir: 'app',
   
   modules: ['@nuxt/icon', 'reka-ui/nuxt', '@nuxtjs/i18n', 'nuxt-gtag'],
   
