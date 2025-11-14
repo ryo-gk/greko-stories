@@ -49,19 +49,17 @@ const switchLanguage = (code: string) => {
 }
 
 useHead({
-  title: t('meta.storiesListTitle'),
-  meta: [
-    {
-      name: 'description',
-      content: t('meta.siteDescription')
-    }
-  ],
+  title: computed(() => t('meta.storiesListTitle')),
   link: [
     {
       rel: 'stylesheet',
       href: 'https://fonts.googleapis.com/css2?family=Press+Start+2P&family=DotGothic16&display=swap'
     }
   ]
+})
+
+useSeoMeta({
+  description: computed(() => t('meta.siteDescription'))
 })
 </script>
 
