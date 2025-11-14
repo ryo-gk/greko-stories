@@ -1,25 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-const modules: any[] = [
-  '@nuxt/icon', 
-  'reka-ui/nuxt', 
-  '@nuxtjs/i18n'
-]
-
-if (process.env.NUXT_PUBLIC_GTAG_ID) {
-  modules.push(['@nuxtjs/google-gtag', {
-    id: process.env.NUXT_PUBLIC_GTAG_ID,
-    config: {
-      anonymize_ip: true,
-      send_page_view: true
-    }
-  }])
-}
-
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   
-  modules,
+  modules: ['@nuxt/icon', 'reka-ui/nuxt', '@nuxtjs/i18n', 'nuxt-gtag'],
+  
+  gtag: {
+    id: process.env.NUXT_PUBLIC_GTAG_ID || '',
+    enabled: !!process.env.NUXT_PUBLIC_GTAG_ID
+  },
   
   i18n: {
     restructureDir: '', 
