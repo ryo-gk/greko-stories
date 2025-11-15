@@ -231,6 +231,12 @@ onUnmounted(() => {
   }
 })
 
+// 現在のURLを取得（OGP用）
+const route = useRoute()
+const requestURL = useRequestURL()
+const baseUrl = requestURL.origin
+const currentUrl = `${baseUrl}${route.path}`
+
 useHead({
   title: storyData.meta[currentLang.value].title,
   meta: [
@@ -245,6 +251,21 @@ useHead({
       href: 'https://fonts.googleapis.com/css2?family=DotGothic16&display=swap'
     }
   ]
+})
+
+useSeoMeta({
+  title: storyData.meta[currentLang.value].title,
+  description: storyData.meta[currentLang.value].description,
+  ogTitle: storyData.meta[currentLang.value].title,
+  ogDescription: storyData.meta[currentLang.value].description,
+  ogImage: storyData.endingImage ? `${baseUrl}${storyData.endingImage}` : `${baseUrl}/favicon.svg`,
+  ogUrl: currentUrl,
+  ogType: 'website',
+  ogSiteName: 'Greko Stories',
+  twitterCard: 'summary_large_image',
+  twitterTitle: storyData.meta[currentLang.value].title,
+  twitterDescription: storyData.meta[currentLang.value].description,
+  twitterImage: storyData.endingImage ? `${baseUrl}${storyData.endingImage}` : `${baseUrl}/favicon.svg`
 })
 </script>
 
