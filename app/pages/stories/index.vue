@@ -36,6 +36,19 @@ const storyList: StoryInfo[] = [
     },
     duration: '3',
     path: '/stories/regain-your-emotions'
+  },
+  {
+    id: 'odyssey-of-the-ethers',
+    title: {
+      en: 'Odyssey of the Ethers',
+      ja: 'Odyssey of the Ethers'
+    },
+    description: {
+      en: 'Two consciousnesses drift through the cosmos. A tale of curiosity, companionship, and the endless journey through the stars.',
+      ja: '物質を失った二つの意識が宇宙を漂う。好奇心と仲間意識、そして星々を渡り歩く終わりなき旅の物語。'
+    },
+    duration: '5',
+    path: '/stories/odyssey-of-the-ethers'
   }
   // 新しい物語を追加する際は、ここに追加するだけ
 ]
